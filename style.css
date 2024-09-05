@@ -1,0 +1,78 @@
+:root{
+    --color-base-white:#E5E5E5;
+    --color-dark-blue-300:#0A3871; 
+    --color-base-gray:#D8DFE8;
+    --color-gray-500:#343A40;
+    --color-gray-400:#495057;
+    --color-white:#FFFFFF;
+    --color-black:#000000;
+
+    --fuente-inter: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fuente-inter);
+}
+
+body {
+    background-color: var(--color-black);
+    flex-direction: column;
+    text-align: center;
+}
+
+div {
+    margin: 20px;
+}
+
+p {
+    color: var(--color-base-gray);
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+span {
+    color: var(--color-base-gray);
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+button {
+    width: 128px;
+    height: 50px;
+    background-color: var(--color-dark-blue-300);
+    color: var(--color-white);
+    border-radius: 24px;
+    font-family: var(--fuente-inter);
+    font-size: 32px;
+    font-weight: 400;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--color-base-gray);
+    color: var(--color-dark-blue-300);
+    border: 1px solid var(--color-dark-blue-300);
+}
+
+.reset {
+    width: 128px;
+    height: 50px;
+    background-color: var(--color-base-gray);
+    color: var(--color-dark-blue-300);
+    border-radius: 24px;
+    font-family: var(--fuente-inter);
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--color-dark-blue-300);
+    margin: 40px;
+}
+
+.reset:hover {
+    background-color: var(--color-dark-blue-300);
+    color: var(--color-white);
+}

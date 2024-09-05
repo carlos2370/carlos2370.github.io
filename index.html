@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Contadores de Unidades Independientes</title>
+</head>
+<body>
+    <div id="contador1">
+        <p>Un tramo</p>
+        <button onclick="incrementar(1)">+</button>
+        <span id="valor1">0</span>
+        <button onclick="decrementar(1)">-</button>
+    </div>
+    <div id="contador2">
+        <p>Dos tramos</p>
+        <button onclick="incrementar(2)">+</button>
+        <span id="valor2">0</span>
+        <button onclick="decrementar(2)">-</button>
+    </div>
+    <div id="contador3">
+        <p>Tres tramos</p>
+        <button onclick="incrementar(3)">+</button>
+        <span id="valor3">0</span>
+        <button onclick="decrementar(3)">-</button>
+    </div>
+    <button class="reset" onclick="resetear()">Resetear</button>
+    <script src="contadores.js"></script>
+</body>
+</html>
